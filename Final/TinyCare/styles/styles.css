@@ -1,0 +1,679 @@
+@import url('https://fonts.googleapis.com/css?family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Satisfy&display=swap');
+body{
+    background-color: #b7dffd;
+    background-image: linear-gradient(to bottom, #fff,#b7dffd);
+    background-repeat: no-repeat;
+    color: #991a97;
+    font-family:"Neucha",'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    
+}
+#wrapper{
+    /* background-color: #fffefe; */
+    background-color: #f5d2d2;
+    border-radius: 0px 40px;
+    box-shadow: 10px 10px 10px #000410;
+    margin: auto;
+    width: 95%;
+}
+header{
+    background-color: #fdbed1;
+    padding: 1.5em;
+    text-align: center;
+    background: linear-gradient(to left, #fdbed1,#fcfbfb);
+    border-radius: 0px 40px 0px 0px;
+}   
+header a {
+    text-decoration: none;
+    color: #f86490;
+}
+header a:hover {
+    color: #cfd1d4;
+}
+nav{
+    background:#1d1d1e;
+    font-size: 120%;
+    font-weight: bold;
+    padding: 10px 0px 0px;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+nav li{
+    display:inline-block;
+    padding: 10px 40px 10px 40px;
+    background: #9b9c9c;
+    border-radius: 10px 10px 0px 0px;
+    width: 200px;
+    font-size: 36px;
+
+}
+nav a{
+    text-decoration: none;
+    color: #1d1d1e;
+}
+nav a:link{
+    color: #1d1d1e;
+}
+nav a:visited{
+    color: #991a97;
+}
+nav a:hover{
+    color: #f86490;
+    font-size: 110%;
+}
+.navActive{
+    background-color: #fdbed1;
+    font-size: 200%; 
+}
+main{
+    padding: 2em;
+}
+h1{
+    font-family: "Satisfy";
+    font-size: 60px;
+    margin: 0;
+    
+}
+h2{
+    font-family: "Satisfy";
+    font-size: 50px;
+    text-align: center;
+    color: #991a97;
+    margin: 0;
+    padding: .5em 0 1em 0;
+    
+    
+}
+h3{
+    color: #991a97;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Satisfy";
+    padding: .5em 0 .5em;
+}
+.welcomePage{
+    margin: 0px 50px 0px 50px;
+}
+.welcomePage p{
+    font-size: 30px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.welcomePage img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:25%;
+    height: 25%;
+
+}
+
+.aboutUs{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 20px 50px;
+    text-align: justify;
+    font-size: 30px;
+    gap:2em;
+}
+.aboutUs img{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #f86490;
+   
+}
+section {
+    flex: 1;
+    margin-right: 1em;
+    margin: 0px;
+}
+section h3{
+    text-align: left;
+    padding: 0px;
+}
+.testimonials{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 20px 50px;
+    text-align: justify;
+    font-size: 30px;
+    gap:2em;
+}
+.testimonials img{
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #f86490;
+   
+}
+.events{
+    margin: 0px 50px 0px 50px; 
+}
+.events h3{
+    text-align: left;
+    padding: .5em;
+    margin: 0px;
+}
+.tContact{
+    display: block;
+}
+.tContact h2{
+    padding: .5em 3em .5em 3em;  
+}
+.tContact h3{
+    padding: .5em;
+    margin: 0px;
+    font-family:"Neucha",'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    text-align: left;
+}
+.tContact p{
+    font-size: 26px;
+    padding: .5em;
+}
+
+form{
+    display: grid;
+    grid-template-columns: auto;
+    margin: 20px 50px;
+    text-align: justify;
+    font-size: 30px;
+    gap:.3em;
+    max-width: 50em;
+    font-family:"Neucha",'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: .5em;
+}
+input{
+    font-size: 26px;
+    border: solid 0px;
+    font-family:"Neucha",'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #e99c9c;
+}
+textarea{
+    font-size: 26px;
+    border: solid 0px;
+    font-family:"Neucha",'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #e99c9c;
+}
+input[type=submit]{
+    background-color: #9b9c9c;
+    border: none;
+    color: #fffefe;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    background: #991a97;
+    border-radius: 10px;
+    max-width: 200px;
+    
+}
+input[type=submit]:hover{
+    background: #9b9c9c;
+}
+.subscribe {
+    display: block;
+    position: relative;
+    padding: 16px;
+    padding-left: 32px;
+    margin-bottom: 12px;
+    cursor: pointer;
+  }
+  .subscribe input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .checkmark {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    
+    background-color: #e99c9c;
+  }
+  .subscribe:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  .subscribe input:checked ~ .checkmark {
+    background-color: #991a97;
+  }
+   .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .subscribe input:checked ~ .checkmark:after {
+    display: block;
+  } 
+  .subscribe .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+
+#contact{
+    text-align: center;
+}
+.dCare{
+    font-size: 35px;
+    font-family: "Satisfy";
+}
+.contactConf{
+    display: grid;
+    justify-content: center;
+    font-size: 24px;
+}
+.contactConf h2{
+    padding: 0px;
+    border-bottom: 1px dashed #991a97;
+}
+
+footer{
+    font-family: "Satisfy";
+    font-style: italic;
+    padding: 2em;
+    text-align: left;
+}
+
+/* Phone mode----------------------------------------------------------------------------------- */
+
+@media (max-width: 768px) {
+nav{
+    font-size: 100%;
+    padding: 0px;
+}
+nav li{
+    width: auto;
+    font-size: 18px;
+    display:block;
+    border-radius: 0px;
+    border-bottom: solid #1d1d1e .5px;
+    padding: 0px;
+ 
+}
+.navActive{
+    background-color: #fdbed1;
+    font-size: 110%;
+   
+}
+#wrapper{
+    border-radius: 0px;
+    box-shadow: none;
+    margin: auto;
+    width: auto;
+}
+main{
+    padding: 0px;
+}
+.welcomePage{
+    margin: 0 .5em 0 .5em;
+}
+.welcomePage img{
+    display: none;
+}
+.welcomePage p{
+    font-size: 80%;
+    text-align: center;
+    margin: 0px;
+    padding: 0em;
+    /* padding: 0px; */
+}
+h1{
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+h2{ 
+    font-size: 28px;   
+    padding: .5em 0px;
+}
+h3{
+    font-size: 22px; 
+}
+p{
+    font-size: 20px;
+}
+.welcomePage p{
+    font-size: 20px;
+}
+footer{
+    padding: .5em;
+    margin-left: .5em;
+}
+footer p{
+    font-size: 16px;
+}
+.aboutUs{
+    margin: 0 .5em 0 .5em;
+}
+.aboutUs{
+    display: block;
+    margin: 10px 25px;
+    font-size: 20px;
+    gap:.5em;
+}
+.aboutUs h2{
+    padding:0px;
+    margin:0px;
+   }
+.aboutUs h3{
+ padding:0px;
+ margin:0px;
+}
+.aboutUs img{
+    display: none;
+     
+  }
+
+  .testimonials{
+    margin: 0 .5em 0 .5em;
+    display: block;
+    /* margin: 10px 25px; */
+    /* font-size: 20px; */
+    /* gap:.5em; */
+}
+.testimonials h2{
+    padding:0px;
+    margin:0px;
+   }
+.testimonials h3{
+ padding:0px;
+ margin:0px;
+}
+.testimonials img{
+    display: none;   
+  }
+.testimonials p{
+    font-size: 20px;
+    margin: 0;
+}
+  .events{
+    display: block;
+    margin: 10px 25px;
+    font-size: 20px;
+    gap:.5em;
+}
+.events h2{
+    padding:0px;
+    margin:0px;
+   }
+.events h3{
+ padding:0px;
+ margin:0px;
+
+}
+
+.tContact h2{
+    padding:0px;
+    margin:0px;
+   }
+.tContact h3{
+    font-size: 20px;
+ margin:0px;
+}
+.tContact p{
+    font-size: 18px;
+}
+
+form{
+    font-size: 20px;
+    
+}
+input{
+    font-size: 16px;
+    
+}
+textarea{
+    font-size: 16px;
+    
+}
+.contactConf{
+    display: block;
+    text-align: center;
+    font-size: 24px;
+}
+
+}
+/* Tablet Mode----------------------------------------------------------------------------------- */
+@media (min-width: 768px) {
+    nav{
+        font-size: 16px;
+        padding: 5px 0px 0px;
+    }
+    nav li{
+        padding: 8px 30px 8px 30px;
+        width: auto;
+        font-size: 20px;    
+    }
+    .navActive{
+        font-size: 110%;
+    }
+    
+    h1{
+        font-size: 40px;
+        padding: 0;
+        margin: 0;
+    }
+    h2{ 
+        font-size: 32px;   
+        padding: .5em 0px;
+    }
+    h3{
+        font-size: 26px; 
+    }
+    p{
+        font-size: 25px;
+    }
+    .welcomePage{
+        margin: 0 .5em 0 .5em;
+    }
+    .welcomePage p{
+        font-size: 20px;
+    }
+    .aboutUs{
+        margin: 0 .5em 0 .5em;
+    }
+    .aboutUs{
+        display: block;
+        margin: 10px 25px;
+        font-size: 20px;
+        gap:.5em;
+    }
+    .aboutUs h2{
+        padding:0em;
+        margin:0px;
+       }
+    .aboutUs h3{
+     padding:0px;
+     margin:0px;
+    }
+.aboutUs section{
+    padding: .5em 0px;
+
+}
+.aboutUs img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    height: 50%;
+}
+
+.testimonials{
+    margin: 0 .5em 0 .5em;
+}
+.testimonials{
+    display: block;
+    margin: 10px 25px;
+    font-size: 20px;
+    gap:.5em;
+}
+.testimonials h2{
+    padding:0em;
+    margin:0px;
+   }
+.testimonials h3{
+ padding:0px;
+ margin:0px;
+}
+.testimonials p{
+    font-size: 20px;
+}
+.testimonials img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width:50%;
+height: 50%;
+}
+.events{
+    margin: 0px;
+}
+.tContact{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:75%;
+  
+}
+.tContact h2{
+    padding:0px;
+    margin:0px;
+   }
+.tContact h3{
+    font-size: 20px;
+ margin:0px;
+}
+.tContact p{
+    font-size: 18px;
+}
+
+form{
+    font-size: 20px;
+    
+}
+input{
+    font-size: 16px;
+    
+}
+textarea{
+    font-size: 16px;
+    
+}
+.contactConf{
+    display: block;
+    text-align: center;
+    font-size: 24px;
+}
+footer p{
+    font-size: 16px;
+}
+
+}  
+
+@media (min-width: 1526px) {
+    nav{
+        font-size: 120%;
+    }
+    nav li{
+        width: 200px;
+        font-size: 36px;
+
+    }
+    .navActive{
+        font-size: 200%;
+       
+    }
+    h1{
+        font-size: 60px;
+    }
+    h2{
+        font-size: 50px;
+        
+    }
+    h3{
+        font-size: 40px;
+    }
+    .welcomePage p{
+        font-size: 30px;
+    }
+    .aboutUs{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 20px 50px;
+        text-align: justify;
+        font-size: 30px;
+        gap:2em;
+    }
+    .aboutUs img{
+      width: 100%;
+      height: 90%; 
+    }
+    .testimonials{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 20px 50px;
+        text-align: justify;
+        gap:3em;
+    }
+    .testimonials p{
+        font-size: 30px;
+    }
+    .testimonials img{
+        width: 100%;
+        height: 90%; 
+       
+    }
+.events{
+    width: 100%;
+    height: 100%;
+}
+    .tContact{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:80%;
+        /* height: 50%; */
+    }
+    .tContact h3{
+        font-size: 35px;
+    }
+    .tContact p{
+        font-size: 26px;
+        /* padding: .5em; */
+    }
+    
+    form{
+        font-size: 30px;
+        gap:.3em;
+    }
+    input{
+        font-size: 26px;
+    }
+    textarea{
+        font-size: 26px;
+    }
+
+
+
+
+
+
+
+
+
+}
